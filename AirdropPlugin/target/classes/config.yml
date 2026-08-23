@@ -1,0 +1,74 @@
+# AirdropPlugin Configuration
+
+# Interval between automatic airdrops in minutes (default: 30)
+airdrop-interval: 30
+
+# Time players must wait before opening the airdrop in minutes (default: 3)
+wait-time: 3
+
+# Time before the airdrop disappears after it's ready to open in seconds (default: 90)
+despawn-time: 90
+
+# World border safety margin (blocks from border)
+border-safety-margin: 50
+
+# Loot settings
+loot:
+  # Minimum number of items in airdrop
+  min-items: 5
+  # Maximum number of items in airdrop
+  max-items: 10
+  
+  # Possible loot items with weights (higher weight = more common)
+  items:
+    - material: DIAMOND
+      amount: 5
+      weight: 20
+    - material: EMERALD
+      amount: 8
+      weight: 25
+    - material: NETHERITE_INGOT
+      amount: 1
+      weight: 5
+    - material: TOTEM_OF_UNDYING
+      amount: 1
+      weight: 8
+    - material: ENCHANTED_GOLDEN_APPLE
+      amount: 2
+      weight: 10
+    - material: ENDER_PEARL
+      amount: 16
+      weight: 30
+    - material: BLAZE_ROD
+      amount: 8
+      weight: 25
+    - material: GHAST_TEAR
+      amount: 4
+      weight: 15
+    - material: DRAGON_BREATH
+      amount: 8
+      weight: 20
+    - material: NAUTILUS_SHELL
+      amount: 4
+      weight: 18
+    - material: HEART_OF_THE_SEA
+      amount: 1
+      weight: 7
+    - material: TRIDENT
+      amount: 1
+      weight: 3
+    - material: NAME_TAG
+      amount: 3
+      weight: 15
+    - material: SADDLE
+      amount: 2
+      weight: 20
+    - material: IRON_INGOT
+      amount: 16
+      weight: 35
+    - material: GOLD_INGOT
+      amount: 12
+      weight: 30
+    - material: ANCIENT_DEBRIS
+      amount: 2
+      weight: 8

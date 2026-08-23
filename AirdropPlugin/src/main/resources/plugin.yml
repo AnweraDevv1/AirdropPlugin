@@ -1,6 +1,26 @@
 name: AirdropPlugin
-version: '1.0'
+version: '1.1'
 main: com.airdrop.plugin.AirdropPlugin
-api-version: '1.21'
-description: Airdrop plugin for Paper 1.21.11
+api-version: '1.20'
+description: Airdrop plugin for Paper/Purpur 1.20.4+
 author: Developer
+
+commands:
+  airdrop:
+    description: Main airdrop command
+    usage: /airdrop <spawn|force|reload>
+    permission: airdrop.use
+
+permissions:
+  airdrop.use:
+    description: Allows using basic airdrop commands
+    default: op
+  airdrop.spawn:
+    description: Allows spawning airdrops instantly
+    default: op
+  airdrop.force:
+    description: Allows forcing airdrops to open immediately
+    default: op
+  airdrop.reload:
+    description: Allows reloading the configuration
+    default: op
