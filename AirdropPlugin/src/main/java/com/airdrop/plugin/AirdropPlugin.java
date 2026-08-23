@@ -26,8 +26,6 @@ public class AirdropPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
-        
         // Register listener
         getServer().getPluginManager().registerEvents(this, this);
         
