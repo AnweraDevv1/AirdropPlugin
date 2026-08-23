@@ -1,0 +1,6 @@
+name: AirdropPlugin
+version: '1.0'
+main: com.airdrop.plugin.AirdropPlugin
+api-version: '1.21'
+description: Airdrop plugin for Paper 1.21.11
+author: Developer
